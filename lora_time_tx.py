@@ -5,7 +5,7 @@ import serial
 import datetime
 
 
-# To check com port for your device run following command and modify the ttyUSBx value where x is numerial value
+# To check com port for your device run following command and modify the ttyUSBx value where x is numerial value :
 # ls /dev/ttyUSB* 
 
 lora = serial.Serial("/dev/ttyUSB1", 57600)
