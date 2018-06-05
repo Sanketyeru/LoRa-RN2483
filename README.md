@@ -9,7 +9,10 @@ This tutorial is a guide for using RN2483-LoRa module and computer such as ubunt
 ``` 
 ls /dev/ttyUSB*
 ```
-
+4. Clone the repository by running following command 
+```
+https://github.com/Sanketyeru/LoRa-RN2483.git
+```
 5. Install pyserial library on both the pi devices
 ``` 
 pip install pyserial
